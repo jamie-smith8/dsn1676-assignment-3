@@ -52,11 +52,11 @@ body {
 @-webkit-keyframes box-rotate {
     
     0% {
-        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
     }
     
     100% {
-        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
     }
     
 }
@@ -64,11 +64,11 @@ body {
 @keyframes box-rotate {
     
     0% {
-        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
     }
     
     100% {
-        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
     }
     
 }
@@ -76,11 +76,11 @@ body {
 @-webkit-keyframes star-scale {
     
     0% {
-        transform: scale(1,1);
+        -webkit-transform: scale(1,1);
     }
     
     100% {
-        transform: scale(2,2);
+        -webkit-transform: scale(2,2);
     }
     
 }
@@ -89,11 +89,11 @@ body {
 @keyframes star-scale {
     
     0% {
-        transform: scale(1,1);
+        -webkit-transform: scale(1,1);
     }
     
     100% {
-        transform: scale(2,2);
+        -webkit-transform: scale(2,2);
     }
     
 }
@@ -101,32 +101,32 @@ body {
 @-webkit-keyframes ship-travel {
     
     0% {
-        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
        
     }
     
     25% {
-        transform: translateX(-40px);
+        -webkit-transform: translateX(-40px);
             }
     
     30% {
-        transform: translateY(-40px);
+        -webkit-transform: translateY(-40px);
             }
     40% {
-        transform: translateX(60px);
+        -webkit-transform: translateX(60px);
     }
     
     50% {
-        transform: translateY(120px);
+        -webkit-transform: translateY(120px);
        
     }
     
     75% {
-        transform: translateY(-120px)
+        -webkit-transform: translateY(-120px)
     }
     
     100% {
-        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
     
 }
     
@@ -136,32 +136,32 @@ body {
 @keyframes ship-travel {
     
     0% {
-        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
        
     }
     
     25% {
-        transform: translateX(-40px);
+        -webkit-transform: translateX(-40px);
             }
     
     30% {
-        transform: translateY(-40px);
+        -webkit-transform: translateY(-40px);
             }
     40% {
-        transform: translateX(60px);
+        -webkit-transform: translateX(60px);
     }
     
     50% {
-        transform: translateY(120px);
+        -webkit-transform: translateY(120px);
        
     }
     
     75% {
-        transform: translateY(-120px)
+        -webkit-transform: translateY(-120px)
     }
     
     100% {
-        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
     
 }
     
